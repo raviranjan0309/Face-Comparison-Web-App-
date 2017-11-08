@@ -1,0 +1,15 @@
+args
+boost
+cmake
+scikit-image
+Flask
+Flask-Cors
+gunicorn
+Jinja2
+numpy
+numpydoc
+pandas
+scipy
+Werkzeug
+itsdangerous
+MarkupSafe

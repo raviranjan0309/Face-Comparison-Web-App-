@@ -1,0 +1,11 @@
+			function download() {
+			dt = canvas.toDataURL('image/jpeg');
+			this.href = dt;
+			};
+			downloadLnk.addEventListener('click', download, false);
+			
+			os.system('classify.py image_path ')
+			
+cf push <Application Name> -m 32M -b https://github.com/cloudfoundry/cf-buildpack-python.git -c "python runserver.py"
+
+cf push car-damage-detector -m 256M -b https://github.com/cloudfoundry/cf-buildpack-python.git -c "python app.py"
